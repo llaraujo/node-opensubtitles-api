@@ -1,0 +1,14 @@
+# File
+.DS_Store
+Thumbs.db
+*.mkv
+*.avi
+*.mp4
+*.3g
+logs
+*.log
+.lock-wscript
+
+# Folders
+build/Release
+node_modules

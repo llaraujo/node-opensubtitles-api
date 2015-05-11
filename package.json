@@ -1,0 +1,34 @@
+{
+  "name": "node-opensubtitles-api",
+  "version": "0.0.1",
+  "description": "Node Opensubtitles API to make search for your subtitles in OpenSubtitles.org!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llaraujo/node-opensubtitles-api.git"
+  },
+  "keywords": [
+    "node",
+    "subtitles",
+    "search",
+    "episode",
+    "imdb",
+    "opensubtitles",
+    "automatic"
+  ],
+  "author": "Leonardo Lima Araujo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llaraujo/node-opensubtitles-api/issues"
+  },
+  "homepage": "https://github.com/llaraujo/node-opensubtitles-api",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "events": "^1.0.2",
+    "glob": "^5.0.5",
+    "lodash": "^3.8.0",
+    "object-assign": "^2.0.0",
+    "q": "^1.3.0",
+    "xmlrpc": "^1.3.0"
+  }
+}
