@@ -1,5 +1,4 @@
-# Node Opensubtitles API
-[![Build Status](https://travis-ci.org/llaraujo/node-opensubtitles-api.svg)](https://travis-ci.org/llaraujo/node-opensubtitles-api)
+# Node Opensubtitles API[![Build Status](https://travis-ci.org/llaraujo/node-opensubtitles-api.svg)](https://travis-ci.org/llaraujo/node-opensubtitles-api)
 Node Opensubtitles API to make search for your subtitles in OpenSubtitles.org!
 
 ## API
