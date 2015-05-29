@@ -1,5 +1,5 @@
 # Node Opensubtitles API
-
+[![Build Status](https://travis-ci.org/llaraujo/node-opensubtitles-api.svg)](https://travis-ci.org/llaraujo/node-opensubtitles-api)
 Node Opensubtitles API to make search for your subtitles in OpenSubtitles.org!
 
 ## API
@@ -20,8 +20,8 @@ opensubtitles.login()
 #### Logout - Release token from the opensubtitles.org
 
 ```js
-opensubtitles.logout()
-.then(function(){
+opensubtitles.logout(token)
+.then(function(res){
 	// Bye bye magic! =/
 }, function(err){
 	// Error logout =(
@@ -80,3 +80,7 @@ opensubtitles.searchEpisode()
 
 });
 ```
+
+## Tests
+
+***coming soon***

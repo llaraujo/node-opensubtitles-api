@@ -16,9 +16,9 @@ var EventEmitter = events.EventEmitter;
  */
 
 function OpenSubtitles() {
-  if (!(this instanceof OpenSubtitles)) {
-    return new OpenSubtitles();
-  };
+  // if (!(this instanceof OpenSubtitles)) {
+  //   return new OpenSubtitles();
+  // };
 
   this.api = new API({
     host: 'api.opensubtitles.org',
@@ -28,6 +28,7 @@ function OpenSubtitles() {
 
   EventEmitter.call(this);
 
+  return this;
 };
 
 // Make api!
@@ -83,7 +84,7 @@ OpenSubtitles.prototype.logout = function(token) {
 
     this.emit('onBeforeLogout', token);
 
-    this.api.method('LogOut', token).then(function(res) {
+    this.api.method('LogOut', [token]).then(function(res) {
 
       if (res.hasOwnProperty('status') && res.status === '200 OK') {
         this.emit('onAfterLogout');
